@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header > h1 {
+    margin-top: 30px;
+    font-family: var(--fonte2);
+    font-size: 12vh;
+    font-variant: small-caps;
+}
+
+header > p {
+    font-family: var(--fonte1);
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main  p {
+    font-family: var(--fonte3);
+}
+
+
+#sq1{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        color: black;
+}
+
+#sq2 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        background-image: url(img/joaninha.jpg);
+        background-position: right center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+}
+
+.text2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+}
+
+#sq3 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        color: black;
+}
+
+#sq4 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        color: black;
+}
+
+#sq5{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        color: white;
+        background-image: url(img/livro.jpg);
+        background-position: cover;
+        background-attachment: fixed;
+}
+
+#sq5 p {
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 5px;
+    display: inline-block;
+}
+
+
+#sq6{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        color: black;
+}
+
+#sq7 {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--fonte3);
+        font-size: 3vw; 
+        color: black;
+}
+
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte1);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
